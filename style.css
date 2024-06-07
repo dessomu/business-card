@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: #F2F5F9;
+    display: flex;
+    justify-content: center;
+    padding-top: 124px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.business-card{
+    background-color: #FFFFFF;
+    width:400px ;
+    height:280px ;
+}
+#img-container{
+    position: relative;
+}
+#img-container img{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+}
+#overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#titleBodyContainer{
+    background-color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #111729;
+    background-color: #FFFFFF;
+
+}
+.body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #677489;
+    margin: 12px 32px 0px 32px;
+    background-color: #FFFFFF;
+
+}
+#footer{
+    border-top: solid 1px #F2F5F9 ;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    padding: 24px 24px 24px 24px;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+}
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    background-color: #F2F5F9;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+#footer img{
+    border-radius: 30px;
+}
+.bio{
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    padding-top: 5px;
+}
+.bio #name{
+    font-weight:600;
+    font-size: 16px;
+    color: #111729;
+}
+.bio #post{
+    font-weight: 400;
+    font-size: 12px;
+    color: #677489;
+}
