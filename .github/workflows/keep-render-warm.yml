@@ -12,3 +12,4 @@ jobs:
       - name: Ping Render App
         run: |
           curl -s https://mern-todo-8f4w.onrender.com/health || true
+          curl -s https://ebook-server-vkyq.onrender.com/health || true
